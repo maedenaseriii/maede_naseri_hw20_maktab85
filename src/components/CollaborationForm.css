@@ -1,0 +1,48 @@
+.control-group {
+  width: 60%;
+  height: 70%;
+  background-color: rgb(140, 188, 190);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  padding: 3rem;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  gap: 1rem;
+}
+input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid rgb(101, 171, 212);
+}
+.error-text {
+  color: rgba(170, 0, 0, 0.959);
+}
+.form-control.invalid input {
+  border: 1px solid rgba(170, 0, 0, 0.959);
+  background-color: rgb(253, 202, 200);
+}
+.form-actions {
+  margin-top: -2rem;
+  width: 100%;
+  text-align: center;
+}
+button {
+  border-style: none;
+  padding: 0.8rem 2.7rem;
+  border-radius: 20px;
+  background-color: rgb(16, 36, 99);
+  color: white;
+  font-weight: 500;
+}
+/* button:disabled {
+  background-color: rgb(175, 175, 175);
+  color: gray;
+} */
+.inputfile{
+  background-color: rgb(247, 247, 247);
+}
